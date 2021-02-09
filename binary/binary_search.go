@@ -2,7 +2,7 @@ package binary
 
 // Comparable comarable item
 type Comparable interface {
-	//Compare compare with item i ，return 1 if j>Comparable[i] , return -1 if j<IndexComparably[i] , return 0 if j<IndexComparably[i]
+	//Compare compare with item i ，return 1 if j>Comparable[i] , return -1 if j<IndexComparably[i] , return 0 if j=IndexComparably[i]
 	Compare(j interface{}, i int) int
 }
 
